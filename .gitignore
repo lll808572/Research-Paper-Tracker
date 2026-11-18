@@ -1,0 +1,29 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# Large paper files
+*.pdf
+*.zip
+*.7z
+
+# Temporary files
+*.tmp
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Local caches
+.cache/
+tmp/
