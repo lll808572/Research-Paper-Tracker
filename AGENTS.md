@@ -168,3 +168,12 @@
 
 中文为主。
 论文标题、专业术语、模型名称和公式保留英文。
+
+## 14. 已确认的专题检索与分类（2026-11-20）
+
+- 每周分工以 config/automation_config.md 为准：周一 / 周五 general，周三 focused。
+- 广泛范围读取 config/research_topics.md；专题范围读取 config/focused_research_topics.md，不从旧聊天沿用关键词。
+- general 与 focused 分别记录增量成功截止；没有对应 scope 周期记录时默认近 7 天；一次性专题回溯不推进周期截止。
+- 专题正本仍在 papers/YYYY/MM/；按两份报告分类的完整副本放在 focused_papers/rca_agent_reliability/liu_chuntai/ 与 dai_yanan/。用户明确允许同一论文复制到两边；这是分类副本，不是独立重复记录，papers.csv 中只一行。
+- 维护专题 catalog.json、分类 README，并运行 scripts/sync_focused_library.py 与其 --check 模式。用户手改副本冲突时停止同步，不覆盖个人笔记。
+- 本次用户明确要求把已确认候选整批整理入库，允许一次性回溯 15 篇；今后每次周期运行仍最多 2 篇、允许零篇。

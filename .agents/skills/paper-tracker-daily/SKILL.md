@@ -41,3 +41,9 @@ description: 为 Research Paper Tracker 执行每日论文检索、去重、证�
 - 数据集—问题—解决方案：实验类按数据集或数据场景关联输入输出任务、具体问题、所提方法及机制、原文章节或表号和适用边界；区别评估所用数据与确实证实目标问题的数据，不将聚合结果套到所有数据集。
 - 综述类改按覆盖领域、研究问题、Taxonomy / 组织框架、代表性数据集和证据缺口整理；无新实验时明确不适用，不虚构作者提出的新算法或实验结果。理论类无数据集时说明实际任务和不适用原因。
 - 补充已有卡片时只新增所需模块，保留用户笔记与既有元数据；正文更新不修改论文版本日期，也不推进检索覆盖时间。
+
+## 已确认的每周专题分工
+
+每次先读取 config/automation_config.md 的“每周检索分工”，按 Asia/Shanghai 当前星期确定 scope。general 只读取原有 config/research_topics.md 的范围；focused 必须读取 config/focused_research_topics.md 的两个子方向、关键词、筛选和分类要求，以上范围选择优先于本技能旧的广泛关键词示例。不要从历史聊天恢复旧关键词。
+分别维护 general / focused 的成功覆盖区间；无对应周期记录默认近 7 天，focused-backfill 不推进周期截止。
+专题正本仍在 papers/YYYY/MM/；分类完整副本在 focused_papers/rca_agent_reliability/liu_chuntai/ 和 dai_yanan/。允许两边复制，但总 CSV 同一标识只一行。维护 catalog.json 和两个 README，先同步再运行 python scripts/sync_focused_library.py --check；发现手改副本时不覆盖。只提交本次生成的具体专题文件，不混入用户 notes。

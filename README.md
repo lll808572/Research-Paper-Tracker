@@ -61,3 +61,15 @@ Zotero 用于原始文献及 PDF 管理。
 已配置每日论文整理、每周研究综述，以及文献比较和批判阅读辅助技能。
 使用方法、来源与当前验证范围见 [研究技能说明](docs/SKILLS_GUIDE.md)。
 技能文件位于 `.agents/skills/`；定时调度需另行配置。
+
+## 开题报告相关论文专题
+
+- [专题总入口](focused_papers/rca_agent_reliability/README.md)
+- [刘春泰：证据误用与诊断修正](focused_papers/rca_agent_reliability/liu_chuntai/README.md)
+- [戴雅楠：证据充分性与停止决策](focused_papers/rca_agent_reliability/dai_yanan/README.md)
+- **修改精确检索范围：[config/focused_research_topics.md](config/focused_research_topics.md)**
+- 原有广泛范围：[config/research_topics.md](config/research_topics.md)
+- 每周一 / 三 / 五的主题分工：[config/automation_config.md](config/automation_config.md)
+- [自己修改检索要求的方法](docs/EDIT_SEARCH_REQUIREMENTS.md)
+
+周一、周五保持原范围，周三执行专题；实际触发仍是本地任务，需要电脑及应用在线。专题中的重复文件是分类副本，总索引每篇只计一次。

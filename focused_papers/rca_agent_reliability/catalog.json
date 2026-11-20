@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "papers": [
+    {
+      "paper_id": "arxiv:2603.00468",
+      "title": "Cloud-OpsBench: A Reproducible Benchmark for Agentic Root Cause Analysis in Cloud Systems",
+      "canonical": "papers/2026/11/2026-11-20-cloud-opsbench.md",
+      "groups": [
+        "liu_chuntai",
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-cloud-opsbench.md",
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-cloud-opsbench.md"
+      ],
+      "synced_sha256": "78bfbe141c1bf5044be957a4669c93c39c9b260038131c5aabb41f8541646dd3"
+    },
+    {
+      "paper_id": "arxiv:2608.21310",
+      "title": "Beyond Fault Localization: A Trajectory-Level Study of LLM Agents for Microservice Root Cause Analysis",
+      "canonical": "papers/2026/11/2026-11-20-beyond-fault-localization.md",
+      "groups": [
+        "liu_chuntai",
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-beyond-fault-localization.md",
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-beyond-fault-localization.md"
+      ],
+      "synced_sha256": "cf81070a222eca600b9b5371f95a4921e5b77dab9a04e23d5afda1c3e0165ddc"
+    },
+    {
+      "paper_id": "arxiv:2609.19825",
+      "title": "EviRCA: Decoupling Evidence Extraction from Reasoning for Microservice Root-Cause Analysis",
+      "canonical": "papers/2026/11/2026-11-20-evirca.md",
+      "groups": [
+        "liu_chuntai",
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-evirca.md",
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-evirca.md"
+      ],
+      "synced_sha256": "c9bb5511c54cf39da8b7d4170d3e25a8d7e1c7b49f39caafb997db14904ebd93"
+    },
+    {
+      "paper_id": "arxiv:2605.15581",
+      "title": "STAR: A Stage-attributed Triage and Repair framework for RCA Agents in Microservices",
+      "canonical": "papers/2026/11/2026-11-20-star.md",
+      "groups": [
+        "liu_chuntai"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-star.md"
+      ],
+      "synced_sha256": "162d68af3aac8a239614a8cca5ef2f8da2c523a786cc553e6ff9bd16fcf6b4fa"
+    },
+    {
+      "paper_id": "arxiv:2611.02416",
+      "title": "Fault-Free Profiles and Decision-Level Training for Root Cause Analysis via Small Language Models",
+      "canonical": "papers/2026/11/2026-11-20-fault-free-profiles.md",
+      "groups": [
+        "liu_chuntai"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-fault-free-profiles.md"
+      ],
+      "synced_sha256": "30a50594f90171f3996ac468b6653eb63ec7f884ce0d9c029a194963a2629227"
+    },
+    {
+      "paper_id": "arxiv:2502.08224",
+      "title": "Flow-of-Action: SOP Enhanced LLM-Based Multi-Agent System for Root Cause Analysis",
+      "canonical": "papers/2026/11/2026-11-20-flow-of-action.md",
+      "groups": [
+        "liu_chuntai",
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-flow-of-action.md",
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-flow-of-action.md"
+      ],
+      "synced_sha256": "507c8dd82eaee0994d8a0e8df114b5a960d89d3bc821789d0f695eef9084ab90"
+    },
+    {
+      "paper_id": "doi:10.18653/2026.findings-emnlp.343",
+      "title": "HALT: Verification-Aware Stopping for Retrieval-Augmented Search Agents",
+      "canonical": "papers/2026/11/2026-11-20-halt.md",
+      "groups": [
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-halt.md"
+      ],
+      "synced_sha256": "05d7d2a148479a8cea723f42ec10645e59f45b291f122bb2c1ea6072560e440d"
+    },
+    {
+      "paper_id": "arxiv:2605.03534",
+      "title": "SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation",
+      "canonical": "papers/2026/11/2026-11-20-sure-rag.md",
+      "groups": [
+        "liu_chuntai",
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-sure-rag.md",
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-sure-rag.md"
+      ],
+      "synced_sha256": "e7100bd6663a5c81f0cb6788f95f2b5585eb9bfacf3a8c53c825b5c56c825186"
+    },
+    {
+      "paper_id": "arxiv:2607.10059",
+      "title": "AgentAbstain: Do LLM Agents Know When Not to Act?",
+      "canonical": "papers/2026/11/2026-11-20-agent-abstain.md",
+      "groups": [
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-agent-abstain.md"
+      ],
+      "synced_sha256": "d1e4f941990218e63e7c11537622b37cd858d6d560f552bcc5434c9044b818d8"
+    },
+    {
+      "paper_id": "arxiv:2509.25370",
+      "title": "Where LLM Agents Fail and How They can Learn From Failures",
+      "canonical": "papers/2026/11/2026-11-20-agent-debug.md",
+      "groups": [
+        "liu_chuntai"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-agent-debug.md"
+      ],
+      "synced_sha256": "89bc2566740963e00cc5bb1ec2d5fd87ff12940ca3a6f6097f90b64d4c1a68ab"
+    },
+    {
+      "paper_id": "arxiv:2505.00212",
+      "title": "Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems",
+      "canonical": "papers/2026/11/2026-11-20-who-and-when.md",
+      "groups": [
+        "liu_chuntai"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-who-and-when.md"
+      ],
+      "synced_sha256": "def9c0348d5e70335a424ca0db36aa387d35585d4b30c86e7ec2adda359c3a3b"
+    },
+    {
+      "paper_id": "arxiv:2611.18926",
+      "title": "DataTrace: Benchmarking Data Agents for Evidence-Grounded Root-Cause Localization",
+      "canonical": "papers/2026/11/2026-11-20-datatrace.md",
+      "groups": [
+        "liu_chuntai",
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-datatrace.md",
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-datatrace.md"
+      ],
+      "synced_sha256": "c33848a966db737578d94e21ae3c328c4dcac2287ef771073e6924fd7fa695ac"
+    },
+    {
+      "paper_id": "doi:10.18653/v1/2026.acl-industry.116",
+      "title": "Don’t Stop Early: Scalable Enterprise Deep Research with Controlled Information Flow and Evidence-Aware Termination",
+      "canonical": "papers/2026/11/2026-11-20-dont-stop-early.md",
+      "groups": [
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-dont-stop-early.md"
+      ],
+      "synced_sha256": "401dfef5cb781c5c2b5ad710940690fb9505177a3f3968bf33a454925f7c27f5"
+    },
+    {
+      "paper_id": "arxiv:2610.06432",
+      "title": "Valid Stopping in Adaptive Generator-Verifier Loops",
+      "canonical": "papers/2026/11/2026-11-20-valid-stopping.md",
+      "groups": [
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-valid-stopping.md"
+      ],
+      "synced_sha256": "4e59353c16de97eb87b51bf3ce834632c0fd4261fe949fa7e355ea7c718509bd"
+    },
+    {
+      "paper_id": "arxiv:2601.22208",
+      "title": "Stalled, Biased, and Confused: Uncovering Reasoning Failures in LLMs for Cloud-Based Root Cause Analysis",
+      "canonical": "papers/2026/11/2026-11-20-stalled-biased-confused.md",
+      "groups": [
+        "liu_chuntai",
+        "dai_yanan"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-stalled-biased-confused.md",
+        "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-stalled-biased-confused.md"
+      ],
+      "synced_sha256": "2905554329d0b9c185227ec9edcb29debda3cf953a5de36145e9150cdab6dbc0"
+    },
+    {
+      "paper_id": "arxiv:2611.19448",
+      "title": "CLEW: Log-Anchored Backward Tracing for Root-Cause Code Localization",
+      "canonical": "papers/2026/11/2026-11-18-clew.md",
+      "groups": [
+        "liu_chuntai"
+      ],
+      "copies": [
+        "focused_papers/rca_agent_reliability/liu_chuntai/2026-11-18-clew.md"
+      ],
+      "synced_sha256": "46dbea941af6bc7ecb5e71c665e8efcb7d8495d43745489ce9e9d027e32f5285"
+    }
+  ]
+}
