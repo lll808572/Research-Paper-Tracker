@@ -1,4 +1,4 @@
-﻿# Automation Configuration
+# Automation Configuration
 
 ## 目标频率
 
@@ -40,7 +40,6 @@
 1. 检查仓库、分支、远程地址及工作区状态。存在用户未提交修改、已暂存文件或未解释的本地领先提交时停止，保留现场并报告；不自动 stash、reset 或覆盖。
 2. 工作区干净时执行 `git pull --ff-only origin main`；失败或分叉即停止。
 3. 按 `.agents/skills/paper-tracker-daily/SKILL.md` 和项目模板执行增量研究；技能名称沿用 daily，但调度频率以本配置为准。必须包含摘要翻译范围、数据集—问题—解决方案模块。
-   对 focused 运行，先读 config/focused_research_topics.md，按两条支线筛选和分类。正本仍在 papers/YYYY/MM/，专题副本置于 focused_papers/rca_agent_reliability/ 下；维护 catalog.json 及分类 README，运行同步和只读校验。副本不重复写入 papers.csv。general 收录若明确符合专题，也可按同一规则归类。
 4. 检查卡片、三个索引、日志、标识去重和链接；运行基础验证脚本并检查差异。
 5. 仅显式暂存本次实际修改的 `papers/`、三个索引、`logs/`，以及本次生成的 `focused_papers/rca_agent_reliability/` 副本、catalog.json 与分类 README。不使用 `git add .`，不把设置、附件或用户笔记混入。新增路径必须逐个审查，不能把整个专题目录中用户的 notes 文件顺便提交。
 6. 提交前检查暂存差异及文件清单，再提交并 `git push origin main`。不创建每日分支，不强制推送。远程并发更新导致推送拒绝时，保留本地提交并报告，不自动改写历史或反复重试。
@@ -97,3 +96,7 @@ ChatGPT 订阅不等于 API 额度。
 - GitHub 写入权限正确。
 - 重复检测正常。
 - 失败不会误更新成功时间。
+
+## 专题存储规则（2026-11-22 修订）
+
+专题论文仅保存在 focused_papers/rca_agent_reliability/ 下对应学长目录，不再在 papers/ 中保存；共同相关论文两边各一份。catalog.json 的 canonical 选择其中一份分类卡片，copies 仅列另一分类的副本；总 CSV 同一论文一行并指向 canonical。更新 canonical 后同步，手改副本冲突时停止，禁止覆盖个人笔记。普通非专题论文仍放 papers/YYYY/MM/。

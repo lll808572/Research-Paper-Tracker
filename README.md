@@ -1,4 +1,4 @@
-﻿# Research Paper Tracker
+# Research Paper Tracker
 
 个人科研文献情报与知识管理系统。
 
@@ -73,3 +73,5 @@ Zotero 用于原始文献及 PDF 管理。
 - [自己修改检索要求的方法](docs/EDIT_SEARCH_REQUIREMENTS.md)
 
 周一、周五保持原范围，周三执行专题；实际触发仍是本地任务，需要电脑及应用在线。专题中的重复文件是分类副本，总索引每篇只计一次。
+
+专题论文仅保存在两位学长的分类目录，papers/ 只保存非专题论文；总索引保留全部论文且每篇只计一次。

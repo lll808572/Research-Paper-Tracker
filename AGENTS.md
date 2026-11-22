@@ -1,4 +1,4 @@
-﻿# AGENTS.md - Research Paper Tracker Rules
+# AGENTS.md - Research Paper Tracker Rules
 
 ## 1. 角色
 
@@ -174,6 +174,9 @@
 - 每周分工以 config/automation_config.md 为准：周一 / 周五 general，周三 focused。
 - 广泛范围读取 config/research_topics.md；专题范围读取 config/focused_research_topics.md，不从旧聊天沿用关键词。
 - general 与 focused 分别记录增量成功截止；没有对应 scope 周期记录时默认近 7 天；一次性专题回溯不推进周期截止。
-- 专题正本仍在 papers/YYYY/MM/；按两份报告分类的完整副本放在 focused_papers/rca_agent_reliability/liu_chuntai/ 与 dai_yanan/。用户明确允许同一论文复制到两边；这是分类副本，不是独立重复记录，papers.csv 中只一行。
 - 维护专题 catalog.json、分类 README，并运行 scripts/sync_focused_library.py 与其 --check 模式。用户手改副本冲突时停止同步，不覆盖个人笔记。
 - 本次用户明确要求把已确认候选整批整理入库，允许一次性回溯 15 篇；今后每次周期运行仍最多 2 篇、允许零篇。
+
+## 专题存储规则（2026-11-22 修订）
+
+专题论文仅保存在 focused_papers/rca_agent_reliability/ 下对应学长目录，不再在 papers/ 中保存；共同相关论文两边各一份。catalog.json 的 canonical 选择其中一份分类卡片，copies 仅列另一分类的副本；总 CSV 同一论文一行并指向 canonical。更新 canonical 后同步，手改副本冲突时停止，禁止覆盖个人笔记。普通非专题论文仍放 papers/YYYY/MM/。

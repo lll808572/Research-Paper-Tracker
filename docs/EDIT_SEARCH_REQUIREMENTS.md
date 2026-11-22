@@ -39,7 +39,6 @@
 
 专题在 [focused_papers/rca_agent_reliability](../focused_papers/rca_agent_reliability/README.md)，按刘春泰、戴雅楠分别存完整卡片；同一论文可出现在两边。
 
-正本在 papers/YYYY/MM/，总索引一篇一行。更新正本后，在项目终端运行：
 
 ```powershell
 python scripts/sync_focused_library.py
@@ -49,3 +48,7 @@ python scripts/sync_focused_library.py --check
 脚本若报告副本被手动修改，会停止，不覆盖；先保留并人工合并笔记。新增归类需维护 catalog.json 和分类 README。个人想法建议另存 notes.md，以免和生成内容混在一起。
 
 本次为用户授权的批量回溯，15 篇新增笔记以摘要 / 公开页面为主、未完成逐段全文精读。后续周期每次仍最多 2 篇，专题双目录副本不翻倍计数。
+
+## 专题存储规则（2026-11-22 修订）
+
+专题论文仅保存在 focused_papers/rca_agent_reliability/ 下对应学长目录，不再在 papers/ 中保存；共同相关论文两边各一份。catalog.json 的 canonical 选择其中一份分类卡片，copies 仅列另一分类的副本；总 CSV 同一论文一行并指向 canonical。更新 canonical 后同步，手改副本冲突时停止，禁止覆盖个人笔记。普通非专题论文仍放 papers/YYYY/MM/。

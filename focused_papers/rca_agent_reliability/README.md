@@ -11,6 +11,9 @@
 
 各笔记包含原始论文 / PDF 链接、摘要要点译述、数据集—问题—解决方案、方法、结果、局限与对两份报告的启发。当前是摘要和公开信息为主的初步笔记，未冒充全文精读；不上传大型 PDF。
 
-正本在 papers/YYYY/MM，目录副本不新增独立论文记录。catalog.json 维护路径与上次生成哈希，运行 `python scripts/sync_focused_library.py` 同步，使用 `--check` 只检查。脚本发现手改副本时停止，避免覆盖个人内容。
 
 后续周一和周五执行原范围，周三执行本专题，每次仍最多新增 2 篇。15 篇是用户明确授权的一次性回溯，不改变日常数量限制。
+
+## 专题存储规则（2026-11-22 修订）
+
+专题论文仅保存在 focused_papers/rca_agent_reliability/ 下对应学长目录，不再在 papers/ 中保存；共同相关论文两边各一份。catalog.json 的 canonical 选择其中一份分类卡片，copies 仅列另一分类的副本；总 CSV 同一论文一行并指向 canonical。更新 canonical 后同步，手改副本冲突时停止，禁止覆盖个人笔记。普通非专题论文仍放 papers/YYYY/MM/。

@@ -17,7 +17,7 @@ description: 为 Research Paper Tracker 执行每日论文检索、去重、证�
 
 ## 阅读与保存
 
-- 使用原有论文模板的全部章节与元数据，保存至 `papers/YYYY/MM/YYYY-MM-DD-short-title.md`，目录日期采用收录日期，发表日期单独保存；写前检查文件是否存在。
+- 使用原有论文模板的全部章节与元数据，非专题保存至 `papers/YYYY/MM/YYYY-MM-DD-short-title.md`，专题直接保存到对应学长分类目录（见下方规则），目录日期采用收录日期，发表日期单独保存；写前检查文件是否存在。
 - 中文解释，保留英文标题、术语及 LaTeX 公式。讲清研究问题、输入输出、关键模块、方法假设和技术路线。
 - 重要实验结论附正文节号、表号或页码及来源链接；数值交代数据集、指标、对照和设置，不跨设置直接比较。区分作者声称、实验依据及助手评价。
 - 无法获取或未实际阅读完整全文时 `full_text_reviewed: false`，注明摘要或部分正文范围。不可推测数据集、消融实验、指标和结果。引用及代码链接须可核实，未知写“未核实”。
@@ -46,4 +46,5 @@ description: 为 Research Paper Tracker 执行每日论文检索、去重、证�
 
 每次先读取 config/automation_config.md 的“每周检索分工”，按 Asia/Shanghai 当前星期确定 scope。general 只读取原有 config/research_topics.md 的范围；focused 必须读取 config/focused_research_topics.md 的两个子方向、关键词、筛选和分类要求，以上范围选择优先于本技能旧的广泛关键词示例。不要从历史聊天恢复旧关键词。
 分别维护 general / focused 的成功覆盖区间；无对应周期记录默认近 7 天，focused-backfill 不推进周期截止。
-专题正本仍在 papers/YYYY/MM/；分类完整副本在 focused_papers/rca_agent_reliability/liu_chuntai/ 和 dai_yanan/。允许两边复制，但总 CSV 同一标识只一行。维护 catalog.json 和两个 README，先同步再运行 python scripts/sync_focused_library.py --check；发现手改副本时不覆盖。只提交本次生成的具体专题文件，不混入用户 notes。
+
+专题论文仅保存在 focused_papers/rca_agent_reliability/ 下对应学长目录，不再在 papers/ 中保存；共同相关论文两边各一份。catalog.json 的 canonical 选择其中一份分类卡片，copies 仅列另一分类的副本；总 CSV 同一论文一行并指向 canonical。更新 canonical 后同步，手改副本冲突时停止，禁止覆盖个人笔记。普通非专题论文仍放 papers/YYYY/MM/。

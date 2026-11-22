@@ -50,9 +50,7 @@
 
 ## 5. 分类与维护
 
-- 正本统一位于 `papers/YYYY/MM/`；`indexes/papers.csv` 同一论文只一行，预印本和正式版关联。
 - 专题总入口 `focused_papers/rca_agent_reliability/README.md`，两人目录分别保留完整 Markdown 副本；共同相关论文可复制到两边，不算重复入库。
-- `focused_papers/rca_agent_reliability/catalog.json` 保存正本路径、分类及上次同步校验值。新增分类记录时，先参考已有结构，不更改已有用户文件。
 - 先更新正本，再运行 `python scripts/sync_focused_library.py`；更新两个目录的阅读索引，运行 `python scripts/sync_focused_library.py --check`。
 - 若副本相对上次生成记录已被手动修改，同步脚本停止且不覆盖；人工笔记宜另存各目录的独立 notes 文件。
 - 修改分类范围只影响后续筛选；不自动删除、移动历史论文。需调整已有归类时显式维护目录索引和 catalog，并保留人工内容。
@@ -62,3 +60,7 @@
 刘方向：Cloud-OpsBench → Beyond Fault Localization → EviRCA → STAR → Who&When / AgentDebug。
 戴方向：Cloud-OpsBench → HALT → SURE-RAG → AgentAbstain；Don't Stop Early 和 Valid Stopping 属于进阶迁移参考。
 这些是阅读优先级，不是必须完成清单，也不将任何尚待核实的创新点当作已成立结论。
+
+## 专题存储规则（2026-11-22 修订）
+
+专题论文仅保存在 focused_papers/rca_agent_reliability/ 下对应学长目录，不再在 papers/ 中保存；共同相关论文两边各一份。catalog.json 的 canonical 选择其中一份分类卡片，copies 仅列另一分类的副本；总 CSV 同一论文一行并指向 canonical。更新 canonical 后同步，手改副本冲突时停止，禁止覆盖个人笔记。普通非专题论文仍放 papers/YYYY/MM/。

@@ -19,7 +19,7 @@ reading_priority: "medium"
 full_text_reviewed: false
 created_at: "2026-11-20"
 reading_scope: "abstract_and_public_pages; selected_body_crosschecks"
-canonical_file: "papers/2026/11/2026-11-20-valid-stopping.md"
+canonical_file: "focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-valid-stopping.md"
 focused_groups: ["dai_yanan"]
 ---
 
@@ -123,7 +123,7 @@ Index-betting e-values 与非单调损失下的 conformal risk control，控制�
 
 主要依据摘要、元数据、官方公开页及此前选读正文的核对，属于初步阅读笔记，未完成逐段全文精读、全表核查或复现。`full_text_reviewed=false`，score 留空。未知数据、超参数和消融不推测。访问日期：2026-11-20。
 
-分类副本与正本使用同一标识；总索引只一行。正本路径：`papers/2026/11/2026-11-20-valid-stopping.md`。若需添加个人笔记，请另存 notes 文件，避免自动同步覆盖手改副本。
+分类副本与正本使用同一标识；总索引只一行。正本路径：`focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-valid-stopping.md`。若需添加个人笔记，请另存 notes 文件，避免自动同步覆盖手改副本。
 
 ## 14. 参考来源
 
