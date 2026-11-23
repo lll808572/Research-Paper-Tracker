@@ -6,6 +6,8 @@
 
 ## Time Series
 
+- [ITPD：非平稳时间序列局部父集发现](../papers/2026/11/2026-11-23-itpd.md)（2026-11-23）
+
 - [PACT：反复工况下的局部适配与保留](../papers/2026/11/2026-11-20-pact.md)（2026-11-20）
 - [Normal-only TTA：正常样本更新仍不足以保证检测改善](../papers/2026/11/2026-11-20-normal-only-tta.md)（2026-11-20）
 - [RT-FM：罕见正常窗口的误报抑制](../papers/2026/11/2026-11-18-rt-fm.md)
@@ -27,7 +29,7 @@
 
 - [PACT：既有故障类别在变化工况下的分类](../papers/2026/11/2026-11-20-pact.md)（2026-11-20）；不等同于因果根因定位。
 
-主题可重复归类，独立论文共 19 篇；收录日期见各卡片与总索引。
+主题可重复归类，独立论文共 20 篇；收录日期见各卡片与总索引。
 
 ## 开题报告相关专题
 
@@ -50,3 +52,7 @@
 - [Valid Stopping in Adaptive Generator-Verifier Loops](../focused_papers/rca_agent_reliability/dai_yanan/2026-11-20-valid-stopping.md)
 - [Stalled, Biased, and Confused: Uncovering Reasoning Failures in LLMs for Cloud-Based Root Cause Analysis](../focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-stalled-biased-confused.md)
 - [CLEW: Log-Anchored Backward Tracing for Root-Cause Code Localization](../focused_papers/rca_agent_reliability/liu_chuntai/2026-11-18-clew.md)
+
+## Causal Discovery
+
+- [ITPD：条件独立检验与时序图恢复](../papers/2026/11/2026-11-23-itpd.md)（2026-11-23）
