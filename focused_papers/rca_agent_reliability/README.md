@@ -17,3 +17,7 @@
 ## 专题存储规则（2026-11-22 修订）
 
 专题论文仅保存在 focused_papers/rca_agent_reliability/ 下对应学长目录，不再在 papers/ 中保存；共同相关论文两边各一份。catalog.json 的 canonical 选择其中一份分类卡片，copies 仅列另一分类的副本；总 CSV 同一论文一行并指向 canonical。更新 canonical 后同步，手改副本冲突时停止，禁止覆盖个人笔记。普通非专题论文仍放 papers/YYYY/MM/。
+
+## 当前数量（2026-11-25）
+
+专题共 17 篇独立论文；刘目录 13 份、戴目录 11 份，共 24 份分类笔记。新增 [ProbeAgent](liu_chuntai/2026-11-25-probeagent.md) 只归刘方向；以上历史回溯数量保留作为运行记录。

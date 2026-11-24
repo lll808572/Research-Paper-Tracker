@@ -26,3 +26,5 @@
 | 2026-11-20 | Stalled, Biased, and Confused: Uncovering Reasoning Failures in LLMs for Cloud-Based Root Cause Analysis | 2026 | Agent / LLM / Root Cause Analysis | FORGE 2026（作者报告，出版页未复核）；conference_author_reported; publisher_unverified | — | [卡片](../focused_papers/rca_agent_reliability/liu_chuntai/2026-11-20-stalled-biased-confused.md) |
 
 | 2026-11-23 | Time Series Structure Learning with Local Causal Parent Discovery | 2026 | Time Series / Causal Discovery | arXiv 预印本；录用未核实 | — | [卡片](../papers/2026/11/2026-11-23-itpd.md) |
+
+| 2026-11-25 | ProbeAgent: Principled Diagnosis of Agent Failures in Verifiable Environments | 2026 | Agent / Failure Diagnosis | arXiv 预印本 | — | [卡片](../focused_papers/rca_agent_reliability/liu_chuntai/2026-11-25-probeagent.md) |

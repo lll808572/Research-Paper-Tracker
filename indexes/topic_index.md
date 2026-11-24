@@ -29,7 +29,7 @@
 
 - [PACT：既有故障类别在变化工况下的分类](../papers/2026/11/2026-11-20-pact.md)（2026-11-20）；不等同于因果根因定位。
 
-主题可重复归类，独立论文共 20 篇；收录日期见各卡片与总索引。
+主题可重复归类，独立论文共 21 篇；收录日期见各卡片与总索引。
 
 ## 开题报告相关专题
 
@@ -56,3 +56,7 @@
 ## Causal Discovery
 
 - [ITPD：条件独立检验与时序图恢复](../papers/2026/11/2026-11-23-itpd.md)（2026-11-23）
+
+## 专题新增（2026-11-25）
+
+- [ProbeAgent：用可执行 sibling tasks 检验错误复现](../focused_papers/rca_agent_reliability/liu_chuntai/2026-11-25-probeagent.md)（Agent / LLM；刘春泰方向跨场景参考）。

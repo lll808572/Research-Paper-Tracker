@@ -20,3 +20,8 @@
 | CLEW: Log-Anchored Backward Tracing for Root-Cause Code Localization | [阅读](2026-11-18-clew.md) | [正本](../../../focused_papers/rca_agent_reliability/liu_chuntai/2026-11-18-clew.md) |
 
 请优先根据检索范围文件第 6 节的顺序阅读。新增个人想法可另建 notes.md；现有生成副本被手改时同步会停止，不覆盖。
+
+## 2026-11-25 新增
+
+- [ProbeAgent：可执行测试与失败模式发现](2026-11-25-probeagent.md)，跨场景迁移参考，未全文精读。
+- 当前本分类 13 篇。
