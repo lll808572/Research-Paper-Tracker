@@ -27,3 +27,6 @@ Thumbs.db
 # Local caches
 .cache/
 tmp/
+
+# Local proposal source (research scope is tracked in config)
+/docs/25120234-董泓.docx

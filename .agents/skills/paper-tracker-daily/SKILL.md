@@ -48,3 +48,9 @@ description: 为 Research Paper Tracker 执行每日论文检索、去重、证�
 分别维护 general / focused 的成功覆盖区间；无对应周期记录默认近 7 天，focused-backfill 不推进周期截止。
 
 专题论文仅保存在 focused_papers/rca_agent_reliability/ 下对应学长目录，不再在 papers/ 中保存；共同相关论文两边各一份。catalog.json 的 canonical 选择其中一份分类卡片，copies 仅列另一分类的副本；总 CSV 同一论文一行并指向 canonical。更新 canonical 后同步，手改副本冲突时停止，禁止覆盖个人笔记。普通非专题论文仍放 papers/YYYY/MM/。
+
+## 周三规则更新（2026-11-26，覆盖此前 focused 数量及窗口规则）
+
+周三 focused 固定检索执行时刻往前 7 天首次公开的新论文，不追溯上次成功截止，不额外重叠或补齐历史；仅更新版本、正式发表但早已公开的论文不计新论文。刘春泰、戴雅楠、董泓各最多 1 篇，允许各自 0 篇，合计最多 3 篇独立论文。同一篇可同时作为多人的唯一推荐并各存完整卡片，总 CSV 仍一行；每人的新增推荐不超过 1 篇，不为凑数放宽质量。general 仍每次最多 2 篇，保持原增量规则。失败窗口记失败或部分完成，不推进成功记录；下一次 focused 仍只查当时最近 7 天，历史补检须另行请求。
+
+三人范围统一读取 config/focused_research_topics.md；董泓分类目录 dong_hong。专题只保存在分类目录；共同论文允许各人一份，canonical/copies 维护方式不变。实验室远端：https://github.com/BJTU-Netcomm/Research-Paper-Tracker.git。

@@ -4,7 +4,7 @@
 
 | 想改什么 | 编辑哪个文件 | 编辑位置 |
 |---|---|---|
-| 周三精确检索的主题、关键词、纳入与排除条件 | [focused_research_topics.md](../config/focused_research_topics.md) | 第 2 节刘方向、第 3 节戴方向、第 4 节筛选条件 |
+| 周三精确检索的主题、关键词、纳入与排除条件 | [focused_research_topics.md](../config/focused_research_topics.md) | 第 2 节刘方向、第 3 节戴方向、第 7 节董方向；第 8 节固定窗口与配额 |
 | 周一、周五的原有广泛研究方向 | [research_topics.md](../config/research_topics.md) | 各方向关键词和重点关注部分 |
 | 哪天检索哪个范围、每次几篇、补检和上传规则 | [automation_config.md](../config/automation_config.md) | 每周检索分工、每次周期任务、GitHub 同步部分 |
 
@@ -47,8 +47,14 @@ python scripts/sync_focused_library.py --check
 
 脚本若报告副本被手动修改，会停止，不覆盖；先保留并人工合并笔记。新增归类需维护 catalog.json 和分类 README。个人想法建议另存 notes.md，以免和生成内容混在一起。
 
-本次为用户授权的批量回溯，15 篇新增笔记以摘要 / 公开页面为主、未完成逐段全文精读。后续周期每次仍最多 2 篇，专题双目录副本不翻倍计数。
+本次为用户授权的批量回溯，15 篇新增笔记以摘要 / 公开页面为主、未完成逐段全文精读。后续general最多2篇；focused三人各0–1篇，分类副本不翻倍计数。
 
 ## 专题存储规则（2026-11-22 修订）
 
 专题论文仅保存在 focused_papers/rca_agent_reliability/ 下对应学长目录，不再在 papers/ 中保存；共同相关论文两边各一份。catalog.json 的 canonical 选择其中一份分类卡片，copies 仅列另一分类的副本；总 CSV 同一论文一行并指向 canonical。更新 canonical 后同步，手改副本冲突时停止，禁止覆盖个人笔记。普通非专题论文仍放 papers/YYYY/MM/。
+
+## 周三规则更新（2026-11-26，覆盖此前 focused 数量及窗口规则）
+
+周三 focused 固定检索执行时刻往前 7 天首次公开的新论文，不追溯上次成功截止，不额外重叠或补齐历史；仅更新版本、正式发表但早已公开的论文不计新论文。刘春泰、戴雅楠、董泓各最多 1 篇，允许各自 0 篇，合计最多 3 篇独立论文。同一篇可同时作为多人的唯一推荐并各存完整卡片，总 CSV 仍一行；每人的新增推荐不超过 1 篇，不为凑数放宽质量。general 仍每次最多 2 篇，保持原增量规则。失败窗口记失败或部分完成，不推进成功记录；下一次 focused 仍只查当时最近 7 天，历史补检须另行请求。
+
+三人范围统一读取 config/focused_research_topics.md；董泓分类目录 dong_hong。专题只保存在分类目录；共同论文允许各人一份，canonical/copies 维护方式不变。实验室远端：https://github.com/BJTU-Netcomm/Research-Paper-Tracker.git。

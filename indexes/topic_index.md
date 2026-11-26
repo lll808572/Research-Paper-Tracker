@@ -60,3 +60,7 @@
 ## 专题新增（2026-11-25）
 
 - [ProbeAgent：用可执行 sibling tasks 检验错误复现](../focused_papers/rca_agent_reliability/liu_chuntai/2026-11-25-probeagent.md)（Agent / LLM；刘春泰方向跨场景参考）。
+
+## 董泓：水系统多尺度证据 RCA
+
+[分类入口](../focused_papers/rca_agent_reliability/dong_hong/README.md)，当前0篇，等待后续周三运行。
