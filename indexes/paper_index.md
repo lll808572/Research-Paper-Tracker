@@ -28,3 +28,5 @@
 | 2026-11-23 | Time Series Structure Learning with Local Causal Parent Discovery | 2026 | Time Series / Causal Discovery | arXiv 预印本；录用未核实 | — | [卡片](../papers/2026/11/2026-11-23-itpd.md) |
 
 | 2026-11-25 | ProbeAgent: Principled Diagnosis of Agent Failures in Verifiable Environments | 2026 | Agent / Failure Diagnosis | arXiv 预印本 | — | [卡片](../focused_papers/rca_agent_reliability/liu_chuntai/2026-11-25-probeagent.md) |
+
+| 2026-11-27 | Scale-Robust and Global-Aware Representation Learning for Multivariate Time Series Anomaly Detection | 2026 | Time Series / Anomaly Detection | arXiv 预印本 | — | [卡片](../papers/2026/11/2026-11-27-stager.md) |
